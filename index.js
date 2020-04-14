@@ -22,5 +22,3 @@ function getPosts() {
   .then(function(json) {
     renderBooks(json)
   });
-
-
