@@ -24,6 +24,3 @@ function getPosts() {
   })
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  renderBooks()
-}
