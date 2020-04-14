@@ -25,4 +25,4 @@ function getPosts() {
 
 document.addEventListener('DOMContentLoaded', function() {
   fetchBooks()
-});
+};
