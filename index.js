@@ -23,4 +23,3 @@ function getPosts() {
     renderBooks(json)
   })
 }
-
