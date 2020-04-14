@@ -17,5 +17,6 @@ function renderBooks(json) {
 function getPosts() {
   fetch('https://anapioficeandfire.com/api/books')
   .then(resp => resp.json())
-  .then(json => renderBooks(json));
+  .then(json => renderBooks(json)
+    document.querySelector("body").innerHTML = renderBooks(json));
   }
