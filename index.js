@@ -16,9 +16,12 @@ function renderBooks(json) {
 
 function getPosts() {
   fetch('https://anapioficeandfire.com/api/books')
-  .then(resp => resp.json())
-  .then(json => renderBooks(json));
-  }
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(json) {
+    renderBooks(json)
+  });
 
 document.addEventListener('DOMContentLoaded', function() {
   fetchBooks()
