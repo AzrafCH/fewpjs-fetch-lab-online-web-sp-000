@@ -22,3 +22,7 @@ function getPosts() {
   .then(function(json) {
     renderBooks(json)
   });
+
+document.addEventListener('DOMContentLoaded', function() {
+
+};
